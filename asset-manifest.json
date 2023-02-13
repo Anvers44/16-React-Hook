@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/16-React-Hook/static/css/main.4050cc84.css",
+    "main.css": "/16-React-Hook/static/css/main.43157b41.css",
     "main.js": "/16-React-Hook/static/js/main.06b078d5.js",
     "static/media/The_Matrix.jpg": "/16-React-Hook/static/media/The_Matrix.874c36d00d9ec6af151c.jpg",
     "static/media/Top-Gun-Maverick-affiche-1.jpg": "/16-React-Hook/static/media/Top-Gun-Maverick-affiche-1.7bf21f3c329b07d60d88.jpg",
@@ -11,11 +11,11 @@
     "static/media/avatar2.jpg": "/16-React-Hook/static/media/avatar2.c3a19d7549acc6941875.jpg",
     "static/media/FORREST_GUMP.jpg": "/16-React-Hook/static/media/FORREST_GUMP.6bca18ae41d2a08d92e2.jpg",
     "index.html": "/16-React-Hook/index.html",
-    "main.4050cc84.css.map": "/16-React-Hook/static/css/main.4050cc84.css.map",
+    "main.43157b41.css.map": "/16-React-Hook/static/css/main.43157b41.css.map",
     "main.06b078d5.js.map": "/16-React-Hook/static/js/main.06b078d5.js.map"
   },
   "entrypoints": [
-    "static/css/main.4050cc84.css",
+    "static/css/main.43157b41.css",
     "static/js/main.06b078d5.js"
   ]
 }
