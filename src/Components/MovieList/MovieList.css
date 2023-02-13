@@ -1,0 +1,113 @@
+
+*{
+    box-sizing: border-box;
+}
+.movie-list{
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+.movie{
+display: inline-flex;
+    margin: 20px 50px 50px 50px;
+    flex-direction: column;
+    height: 500px;
+    width: 350px;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    border-radius: 20px;
+    box-shadow:
+            2.8px 2.8px 2.2px rgba(0, 0, 0, 0.034),
+            6.7px 6.7px 5.3px rgba(0, 0, 0, 0.048),
+            12.5px 12.5px 10px rgba(0, 0, 0, 0.06),
+            22.3px 22.3px 17.9px rgba(0, 0, 0, 0.072),
+            41.8px 41.8px 33.4px rgba(0, 0, 0, 0.086),
+            100px 100px 80px rgba(0, 0, 0, 0.12);
+
+    cursor: url("src/Assets/camera-video.png"),pointer;
+
+}
+.up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+
+}
+.down{
+    box-sizing: border-box;
+    width: 70%;
+    height: 30%;
+    margin: 0 auto;
+    padding: 13px 0;
+
+}
+.border{
+    padding: 20px;
+    height: 100%;
+    position: relative;
+}
+.img{
+    height: 100%;
+    border-radius: 15px;
+    box-shadow:
+            2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+            6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+            12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+            22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+            41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+            100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+}
+
+
+
+.cir{
+    background-color: aliceblue;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    left: 255px;
+    bottom: 135px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);}
+
+.rating{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+}
+
+.Title{
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.filter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 150px;
+}
+.des{
+    color: dimgray;
+    letter-spacing: 0.09rem;
+    font-size:0.9rem ;
+}
+
+.footer{
+    color: black;
+    text-align: center;
+    margin: 80px 0 50px 0;
+}
+.nav-marge{
+    height: 69px;
+}
+
