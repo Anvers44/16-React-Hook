@@ -5,17 +5,17 @@
 .movie-list{
 
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat( auto-fit,minmax(400px,1fr));
 
 }
 .movie{
-display: inline-flex;
+display: flex;
     margin: 20px 50px 50px 50px;
     flex-direction: column;
     height: 500px;
     width: 350px;
     background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
-    border-radius: 20px;
+    border-radius: 15px;
     box-shadow:
             2.8px 2.8px 2.2px rgba(0, 0, 0, 0.034),
             6.7px 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -24,20 +24,23 @@ display: inline-flex;
             41.8px 41.8px 33.4px rgba(0, 0, 0, 0.086),
             100px 100px 80px rgba(0, 0, 0, 0.12);
 
-    cursor: url("src/Assets/camera-video.png"),pointer;
+}
 
+.movie:hover{
+
+    cursor: url(/src/Assets/icons8-projecteur-de-film-50-couleur.png),pointer;
 }
 .up{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70%;
+    height: 65%;
 
 }
 .down{
     box-sizing: border-box;
-    width: 70%;
-    height: 30%;
+    width: 80%;
+    height: 35%;
     margin: 0 auto;
     padding: 13px 0;
 
@@ -49,7 +52,7 @@ display: inline-flex;
 }
 .img{
     height: 100%;
-    border-radius: 15px;
+    border-radius: 12px;
     box-shadow:
             2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
             6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
@@ -68,8 +71,8 @@ display: inline-flex;
     width: 60px;
     border-radius: 50%;
     position: absolute;
-    left: 255px;
-    bottom: 135px;
+    right: 12%;
+    bottom: 32%;
     font-size: 1.2rem;
     font-weight: bold;
     background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);}
