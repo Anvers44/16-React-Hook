@@ -54,6 +54,10 @@ const MovieList = () => {
         }
     }
 
+    const HandleMovie =()=>{
+        console.log("log")
+    }
+
 
     return (
         <div className="main">
@@ -75,7 +79,7 @@ const MovieList = () => {
                 {
                     <MovieCard key={movie.id} movie={movie} />
 
-                    return <div className="movie" key={movie.id} >
+                    return <div className="movie" key={movie.id} onClick={()=>HandleMovie()} >
                         <div className="border">
                             <div className="up">
                                 <img src={movie.posterURL} alt={movie.title} className="img"/>
